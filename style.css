@@ -1,0 +1,269 @@
+.land{
+    
+     
+    background-image:url(img/hero-bg.jpg);
+    background-position:center;
+    background-size: cover;
+    
+    height: 100vh;
+    
+    
+
+}
+.headercontainer h3::after{
+    content: "";
+    width: 20%;
+    text-align: center;
+    animation-name: scripet;
+    animation-duration: 7s;
+    animation-delay:1s;
+    animation-iteration-count: infinite;
+     
+}
+ 
+ @keyframes  scripet {
+    
+    0% {
+        
+       content: " Pho|";
+
+
+    }
+    10%{
+        content: "Photogra |";
+
+    }
+    20%{
+         content:  "Photographer|";
+
+    }
+    30%{
+        content: " Free |";
+    }
+    40%{
+         content:  "Freelancer|";
+    }
+    50%{
+content: " Desi|";
+    }
+    60%{
+   content: "Designer|";
+
+    }
+    70%{
+      content:  "Dev|";
+    }
+    80%{
+
+      content: "Deve|";
+    }
+    90%{
+      content:  "Devel|";
+    }
+    100%{
+        
+      content:   "Developer|";
+    }
+
+ }
+ .container h3{
+    position: relative;
+ }
+ .container h3::after{
+    content: "";
+    width: 90px;
+    height: 3px;
+    position: absolute;
+    background-color:#0078ff;
+    top: 100%;
+    left:0%;
+    right: 80%;
+ }
+ .v2{
+  background-color: #0078ff;
+  height: 10px;
+ }
+ .head{
+  font-weight: bolder;
+  font-size: 40px;
+ }
+ .p1{
+  background-color: rgb(230, 230, 230);
+ }
+ .container1{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-image:url(img/counters-bg\ \(1\).jpg) ;
+  background-position: center;
+  background-size: 100%  100% ;
+  height: 70vh;
+ }
+ .layer{
+  background-color: rgba(15, 98, 192,0.8);
+ }
+ .header{
+font-weight: bolder;
+font-size: 40;
+ }
+ .p2 img{
+width: 100%;
+ }
+ .ph{
+position: relative;
+ }
+ .ph::after{
+  margin-top: 10px;
+  content: "";
+  width: 50px;
+  height: 8px;
+  position: absolute;
+  background-color:#0078ff;
+  top: 100%;
+  left:50%;
+  right: 70%;
+}
+.row span{
+  color: #0078ff;
+
+}
+.sec{
+  background-color: #f5f5f5;
+}
+
+.member{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-image:url(img/overlay-bg\ \(1\).jpg) ;
+  background-position: center;
+  background-size: 100%  100% ;
+  height: 100vh;
+ width: 100%;
+ 
+ text-align: center;
+}
+ .member img{
+  width: 10%;
+ }
+ .layer2{
+  background-color: rgba(0, 120, 255,0.6);
+ }
+ .carousel-indicators{
+   bottom: 300px;
+ }
+ .he1{
+  font-weight: bolder;
+font-size: 60;
+ }
+ .p32{
+  position: relative;
+   }
+   .p32::after{
+    margin-top: 10px;
+    content: "";
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    background-color:#0078ff;
+    top: 100%;
+    left:47%;
+    right: 55%;
+    
+  }
+  .blog{
+    margin-top: -150px;
+    background-color: #ece8e8;
+  }
+  .section img{
+    width: 100%;
+  }
+  .boh{
+    text-align: center;
+    color: #f5f5f5;
+    width: 26%;
+    background-color:#0078ff;
+    /* color: #f5f5f5; */
+  }
+  .wt img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 10%;
+    border-radius: 10px;
+     
+  }
+  .wt{
+    
+    border-top:2px solid  #ece8e8;
+    width: 100%;
+  }
+  .section h4{
+    transition: 1s;
+    transition-property: color;
+  }
+.section h4:hover{
+  color: #0078ff;
+}
+.contant{
+  background-image:url(img/overlay-bg\ \(1\).jpg) ;
+  background-position: 100% 100%;
+  background-size: cover;
+  height: 100vh;
+}
+.background{
+  background-color: rgba(0, 120, 255,0.6);
+}
+.seph{
+  position: relative;
+}
+.seph::after{
+  margin-top: 10px;
+  content: "";
+  width: 120px;
+  height: 3px;
+  position: absolute;
+  background-color:#0078ff;
+  top: 100%;
+  left:0%;
+  right: 90%;
+  
+}
+.bck{
+  background-color:white;
+}
+.coom{
+  height: 100px;
+}
+.circel{
+  height: 100px;
+  width: 30%;
+  margin-left: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: #0078ff 7px solid;
+transition: 1s;
+transition-property: color,background-color,border;
+  
+}
+.circel:hover{
+  background-color: #0078ff;
+  color: #ece8e8;
+  border: #ece8e8 7px solid;
+}
+.r3{
+  margin-left: 150px;
+  
+}
+.circel2{
+  height: 100px;
+  width: 50%;
+  /* margin-left: 120px;
+  margin-top: 20px; */
+  margin-bottom: 20px;
+  border:#f5f5f5 10px solid;
+ 
+  
+}
+.card-title{
+  font-size: 60px;
+
+}
+ 
